@@ -5,11 +5,25 @@
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>html registration form</title>
+ <link rel="stylesheet" href="app.css">
 </head>
 <body>
+ <div class="container">
  <form action="method">
+  
   <h1>Register</h1>
-  <p>please fill in this form with us for more information about you</p>
+  <p>please fill in this form to register with us </p>
+  <hr >
+  <label for="fn"><b> FirstName </b></label>
+  <input type="text" name="fn" id="fn" required>
+  <label for="fn"><b> password </b></label>
+  <input type="password" placeholder="Enter password" name="psw" id="psw" required>
+  <label for="fn"><b> password </b></label>
+  <input type="password" placeholder="Enter confirm password" name="cpsw" id="cpsw" required>
+  <hr >
+  <button type="submit">Register</button>
+ 
  </form>
+</div>
 </body>
 </html>
